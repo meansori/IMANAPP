@@ -1,0 +1,303 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f5f5f5f7;
+}
+img {
+  border-radius: 5px;
+}
+p {
+  text-align: justify;
+}
+.float-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #222;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  z-index: 999;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.float-top:hover {
+  opacity: 1;
+}
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  max-width: 800px;
+  margin: auto;
+  align-items: center;
+}
+.logo ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+.logo ul li {
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+}
+.nav {
+  display: flex;
+}
+.nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+}
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.hook {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 0px;
+}
+.headline-detail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.follow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.follow button {
+  width: 100px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.follow button a {
+  text-decoration: none;
+  color: black;
+}
+.follow a {
+  text-decoration: none;
+  color: black;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.introduce-headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 20px 0px;
+  margin: auto;
+}
+.experience-headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience-headline a {
+  text-decoration: none;
+  color: black;
+}
+.experience-detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.experience-detail-card {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  max-width: 800px;
+  margin: auto;
+}
+.skills-headline {
+  display: flex;
+  flex-direction: row;
+}
+.skills-headline-detail {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+.skills-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px;
+}
+.skills-details-card-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.work-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
+.work-project-headline {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.work-project-headline-detail {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.work-project-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+}
+.work-project-card-detail {
+  display: flex;
+  flex-direction: row;
+}
+.work-project-card-detail-headline {
+  display: flex;
+  flex-direction: column;
+}
+.work-project-card-detail-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.work-project-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.work-project-card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  max-width: 800px;
+  margin: auto;
+  gap: 20px;
+}
+.contact-headline {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-headline button {
+  border-radius: 4px;
+  margin: 20px 0px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+form input,
+form textarea,
+form button {
+  border-radius: 4px;
+}
+.contact-headline button a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
